@@ -22,9 +22,9 @@ composer require rodrigoq/phpnetrandom
 ```
 
 ## Details
-The [NetRandom.php](https://github.com/rodrigo/phpnetrandom/src/NetRandom.php) class is a direct port of the public code of [original .Net Random class](https://referencesource.microsoft.com/#mscorlib/system/random.cs).
+The [NetRandom.php](https://github.com/rodrigoq/phpnetrandom/blob/master/src/NetRandom.php) class is a direct port of the public code of [original .Net Random class](https://referencesource.microsoft.com/#mscorlib/system/random.cs).
 
-There are many [tests](https://github.com/rodrigo/phpnetrandom/tests) that can be run with [PHPUnit](https://phpunit.de). There is also a [.Net solution](https://github.com/rodrigoq/phpnetrandom/tests/NetRandom) with a Random command line utility for testing purposes. To run the full test suite you have to compile that solution.
+There are many [tests](https://github.com/rodrigoq/phpnetrandom/tree/master/tests) that can be run with [PHPUnit](https://phpunit.de). There is also a [.Net solution](https://github.com/rodrigoq/phpnetrandom/tree/master/tests/NetRandom) with a Random command line utility for testing purposes. To run the full test suite you have to compile that solution.
 
 ## Usage
 ```php
