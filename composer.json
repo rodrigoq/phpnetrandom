@@ -1,0 +1,29 @@
+{
+    "name": "rodrigoq/phpnetrandom",
+    "homepage": "http://github.com/rodrigoq/PhpNetRandom",
+    "description": "Port of .Net Random class to php",
+    "keywords": [
+        "php",
+        "random",
+        ".net"
+    ],
+    "type": "library",
+    "license": "LGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "NetRandom\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "NetRandom\\Tests\\" : "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "version": "1.0"
+}
