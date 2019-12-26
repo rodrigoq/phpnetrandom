@@ -160,7 +160,7 @@ class NetRandom
      */
     public function Next(int $minValue = null, int $maxValue = null) : int
     {
-        if ($minValue === null && $maxValue == null)
+        if ($minValue === null && $maxValue === null)
             return $this->InternalSample();
 
         if ($minValue !== null && $maxValue === null)
